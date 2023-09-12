@@ -1,0 +1,62 @@
+.bluebox {
+    background-color: blue;
+    /* 0x0000FF */
+    height: 100px;
+    width: auto;
+    opacity: 0.9;
+    border-width: 10px;
+    border-color: black green orange yellow;
+    border-style: ridge;
+    border-radius: 80px;
+    padding: 10px;
+    width: 100px;
+}
+
+.blue {
+    color: white;
+    /* 0xFFFFFF */
+}
+
+.greenbox {
+    background-color: darkgreen;
+    /* 0x006400 */
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    background-image: url(images/desktop-wallpaper-cool-dark-computer-background-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    outline-style: double;
+    outline-width: thick;
+    outline-color: red;
+}
+
+.green {
+    color: azure;
+    /* 0xF0FFFF */
+}
+
+.yellowbox {
+    padding: 10px 20px 10px 30px;
+    background-color: yellow;
+    /* 0xFFFF00 */
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+.yellow {
+    color: indigo;
+    /* 0x4B0082 */
+}
+
+.great {
+    font-size: 300%;
+}
+
+p {
+    margin: 0;
+    /* background-color: #fff; */
+}
