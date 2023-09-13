@@ -8,8 +8,36 @@
         * {
             background: yellow;
         }
+        /* p {
+            background: yellow;
+        }
 
-        div[class~="test"] {
+        p.intro {
+            background: yellow;
+        }
+
+        p, h1 {
+            background: yellow;
+        }
+
+        div p {
+            background: yellow;
+        }
+
+        div > p {
+            background: yellow;
+        }
+
+        div + p {
+            background: yellow;
+        }
+
+        div ~ p {
+            background: yellow;
+        }
+        */
+
+        div[class="test"] {
             background-color: lightgreen;
         }
     </style>
@@ -24,6 +52,17 @@
     <div class="tests">The fifth div element: tests</div>
     <p class="test">This is a paragraph: test</p>
     <p class="test_ex">This is a paragraph: test_ex</p>
+
+    <!--Meaning of all the symbols:
+                                            ^:
+                                                The value starts with test
+                                            $:
+                                                The values ends with test
+                                            *:
+                                                The value contains test
+                                            ~:
+                                                The value is exactly test       
+                                        -->
 
     <div>First div
         <ul>
