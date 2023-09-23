@@ -17,9 +17,9 @@
     <title>Favorite Things</title>
 </head>
 
-<body style="background-color: #B3B2B1">
-    <div class="container-fluid" style="margin: 0px">
-        <nav class="navbar navbar-dark navbar-nav" style="background-color: #800000; padding: 10px; margin: 0px">
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark navbar-nav">
             <a class="navbar-brand" href="#">Favorite Things</a>
         </nav>
     </div>
@@ -29,23 +29,25 @@
         <h2>Favorite Number: </h2>
         <div id="counterText">0</div>
         <div class="button-group">
-            <button id="decrementButton" type="button" class="btn"
-                style="background-color: #800000; color: white">-1</button>
-            <button id="resetButton" type="button" class="btn"
-                style="background-color: #800000; color: white">Reset</button>
-            <button id="incrementButton" type="button" class="btn"
-                style="background-color: #800000; color: white">+1</button>
+            <button id="decrementButton" type="button" class="btn col-md-2">-1</button>
+            <button id="resetButton" type="button" class="btn col-md-2">Reset</button>
+            <button id="incrementButton" type="button" class="btn col-md-2">+1</button>
         </div>
-        <hr>
-        <h2>Favorite Color:</h2>
-        <div class="color-container">
-            <div id="favoriteColorContainer">
-                <div id="favoriteColorBox">
-
-                </div>
+        <div class="container" id="colorPickerContainer">
+            <hr>
+            <h2>Favorite Color:</h2>
+            <div id="colorContainer">
+                <div id="colorBoxText">blue</div>
             </div>
+        <div class="button-group2">
+            <button id="blueButton" type="button" class="btn col-md-2">Blue</button>
+            <button id="greenButton" type="button" class="btn col-md-2">Green</button>
+            <button id="redButton" type="button" class="btn col-md-2">Red</button>
+            <button id="purpleButton" type="button" class="btn col-md-2">Purple</button>
         </div>
         <hr>
+        </div>
+
     </div>
 
 
