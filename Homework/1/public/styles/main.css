@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+.button-group {
+    padding: 5vw;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.button-group>button {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#counterText {
+    color: black;
+    font-family: inclusive+sans;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#colorPickerText {
+    color: black;
+    font-family: inclusive+sans;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: inclusive+sans;
+    font-size: 3.5em;
+    text-align: left;
+}
+
+#favoriteColorContainer {
+    width: 200px;
+    margin: 20px;
+}
+
+#favoriteColorBox {
+    background-color: #800000;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
