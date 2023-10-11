@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "mooretj-tic-tac-toe-games"
+  },
+  "targets": {
+    "mooretj-tic-tac-toe-games": {
+      "hosting": {
+        "01": [
+          "mooretj-tic-tac-toe-games"
+        ],
+        "02": [
+          "mooretj-oop-tic-tac-toe"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
