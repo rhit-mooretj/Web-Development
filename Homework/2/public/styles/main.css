@@ -1,0 +1,33 @@
+#navbarContainer {
+    padding: 0px;
+}
+
+#navbarContainer>*>* {
+    margin: 0px 1.5vw;
+}
+
+.content {
+    text-align: center;
+    margin-top: 1vh;
+    height: 92.6vh;
+}
+
+.card {
+    margin: 0 32vw;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.content>h1 {
+    margin-bottom: 1vh;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to bottom, purple, cyan);
+}
+
+#nav {
+    background: #780F87;
+    border-bottom: 0.4vh black solid;
+}
