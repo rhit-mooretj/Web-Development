@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
+        integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Shuffling Months</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-purple">
+        Months
+    </nav>
+
+    <div class="row" style="--bs-gutter-x: 0;">
+        <div class="col-sm-6 d-grid" style="padding: 5px 50px;">
+            <label for="fromIndex" class="form-label">From Index:</label>
+            <input type="fromIndex" class="form-control" id="fromIndex" placeholder="From Index" name="fromIndex">
+        </div>
+        <div class="col-sm-6 d-grid" style="padding: 5px 50px;">
+            <label for="toIndex" class="form-label">To Index:</label>
+            <input type="toIndex" class="form-control" id="toIndex" placeholder="To Index" name="toIndex">
+        </div>
+    </div>
+
+    <div class="row" style="--bs-gutter-x: 0;">
+        <div class="col-sm-6 d-grid" style="padding: 5px 25px;">
+            <button type="button" class="btn btn-outline-primary btn-block" id="move">
+                MOVE
+            </button>
+        </div>
+        <div class="col-sm-6 d-grid" style="padding: 5px 25px;">
+            <button type="button" class="btn btn-outline-primary btn-block" id="reset">
+                RESET
+            </button>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <ol start="0" id="months">
+
+        </ol>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js'
+        integrity='sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=='
+        crossorigin='anonymous'></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
